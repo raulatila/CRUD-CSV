@@ -5,9 +5,9 @@ const User = require('../models/User');
 
 const importCSV = async () => {
   const users = [];
-  const filePath = path.join(__dirname, '..', 'users.csv'); // Definindo o caminho do arquivo CSV
+  const filePath = path.join(__dirname, '..', 'users.csv'); 
   
-  console.log('filePath:', filePath); // Colocando o log aqui, após a definição
+  console.log('filePath:', filePath); 
 
   return new Promise((resolve, reject) => {
     fs.createReadStream(filePath)
