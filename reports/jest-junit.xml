@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="2" failures="0" errors="0" time="2.599">
+  <testsuite name="User API" errors="0" failures="0" skipped="0" timestamp="2024-11-19T06:02:15" time="2.419" tests="2">
+    <testcase classname="User API should create a new user" name="User API should create a new user" time="0.106">
+    </testcase>
+    <testcase classname="User API should get all users" name="User API should get all users" time="0.013">
+    </testcase>
+  </testsuite>
+</testsuites>
